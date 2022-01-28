@@ -10,3 +10,7 @@ def print_python_interpreter_version() -> None:
     python_interpreter_version: str = return_python_interpreter_version()
     f_python_interpreter_version: str = f'Python interpreter version is: {python_interpreter_version}'
     print(f_python_interpreter_version)
+
+
+if __name__ == '__main__':
+    print_python_interpreter_version()
